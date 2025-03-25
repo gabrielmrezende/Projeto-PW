@@ -1,0 +1,24 @@
+/* MAIN */
+.home {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  background-color: #ccc;
+  max-width: 270rem; /* Define uma largura máxima para a seção (ajuste conforme necessário) */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  padding: 2rem;
+}
+
+.home .content {
+  max-width: 60rem;
+  position: relative;
+  z-index: 2;
+}
+
+.briefing {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+ 
+}
